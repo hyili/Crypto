@@ -46,7 +46,7 @@ bool SpongeConstruction(string inputString, int outputLen)
 
 	bool ret_val = true;
 	for (int i = 0; i<24; i++)
-		ret_val = (hashVal[i]==0)&&ret_val;
+		ret_val = (hashVal[i]=='0')&&ret_val;
 
 	return ret_val;
 }
