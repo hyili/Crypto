@@ -42,7 +42,6 @@ bool SpongeConstruction(string inputString, int outputLen)
 	
 	// Print the hash value to the stdout
 	PrintHex( hashVal.substr(0, outputLen) ) ;
-	cout << endl;
 
 	bool ret_val = true;
 	for (int i = 0; i<24; i++)
